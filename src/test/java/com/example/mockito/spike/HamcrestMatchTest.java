@@ -1,4 +1,4 @@
-package com.example.mockito.business;
+package com.example.mockito.spike;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.*;
+//import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class HamcrestMatchTest {
@@ -18,5 +19,6 @@ public class HamcrestMatchTest {
 
         assertThat("",emptyString());
         assertThat("Arune",startsWith("A"));
+
     }
 }
